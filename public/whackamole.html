@@ -1,0 +1,37 @@
+<html>
+<head>
+	<title>Game of Moles!</title>
+   	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="/css/whackamole1.css">
+</head>
+<body class="stark">
+<button id="start">Whack-a-Lannister</button>
+<button id="stop">Let the Lannisters Win!</button>
+<h2 class="score">Score: <span class="scoreUp">0</span></h2>
+
+<section class="info">
+</section>
+<section class="gameboard">
+	<div class="tile" id="tile1"></div>
+    <div class="tile" id="tile2"></div>
+    <div class="tile" id="tile3"></div>
+	
+	<div class="tile" id="tile4"></div>
+	<div class="tile" id="tile5"></div>
+	<div class="tile" id="tile6"></div>
+
+	<div class="tile" id="tile7"></div>
+	<div class="tile" id="tile8"></div>
+	<div class="tile" id="tile9"></div>
+</section>
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/whackamole.js"></script>
+	<script>
+	$('.tile').click(function() {
+		var buttonClicked = $(this).attr("id");
+		console.log("You Clicked Number " + buttonClicked);
+	});
+	</script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+.tile {
+	float: right;
+	width: 220px;
+	height: 220px;
+	border: 1px solid white;
+	background-color: clear;
+}
+.title {
+	text-align: center;
+	width: 200px;
+	height: 50px;
+	float: right;
+	top: 400px;
+}
+.stark {
+	background-image: url("https://thekingskeep.files.wordpress.com/2011/05/stark-sigil.jpg");
+	background-size: 1225px 830px;
+}
+.active {
+	background-image: url("http://i.imgur.com/uFCct.gif");
+	background-size: 220px 220px;
+}
+.gameboard {
+	height: 660px;
+	width: 660px;
+	margin: auto;
+	top: 500px;
+}
+#start {
+	width: 200px;
+	height: 50px;
+	float: right;
+	top: 400px;
+	text-align: center;
+	margin: auto;
+}
+#stop {
+	width: 200px;
+	height: 50px;
+	text-align: center;
+	margin: auto;
+	float: left;
+}
